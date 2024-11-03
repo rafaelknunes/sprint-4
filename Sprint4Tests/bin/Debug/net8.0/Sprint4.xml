@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Sprint4</name>
+    </assembly>
+    <members>
+        <member name="M:Sprint4.Controllers.AuthController.Login(System.String,System.String)">
+            <summary>
+            Autentica o usuário usando email e senha.
+            </summary>
+            <remarks>
+            Para testar a autenticação, use o email "teste@teste.com" e a senha "123456".
+            </remarks>
+            <param name="email">O email do usuário. Exemplo: "teste@teste.com"</param>
+            <param name="password">A senha do usuário. Exemplo: "123456"</param>
+            <returns>Um token de autenticação se as credenciais estiverem corretas.</returns>
+        </member>
+    </members>
+</doc>
